@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        div {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;  
+          width: 300px;
+        }
+        input {
+            height: 30px;
+        }
+        #email_error {
+            display: none;
+            color: red;
+        }
+        #pass_error {
+            display: none;
+            color: red;
+        }
+    </style>
+<div>
+    <label for="email">Email</label>
+    <input type="text" id="email" placeholder="Type email">
+    <div id="email_error">invalid email!</div>
+    <label for="email">Password</label>
+    <input type="password" id="pass" placeholder="Type password">
+    <div id="pass_error">Password invalid!</div>
+</div>
+    <script src="./app.js"></script>
+</body>
+</html>

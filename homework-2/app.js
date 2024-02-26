@@ -87,11 +87,11 @@
 // სახელს თარიღის გამოყენებით.დაგჭირდებათ array-ში შეინახოთ
 //კვირის დღეები და ისე შეამოწმოთ new Date() დახმარებით!!
 
-    // let days = ['sunday','monday','tuesday','wendesday','thursday','friday','saturday']
-    // let date = new Date();
+// let days = ['sunday','monday','tuesday','wendesday','thursday','friday','saturday']
+// let date = new Date();
 
-    // const day = date.getDay();
-    // const daysofweek = days[day]    
+// const day = date.getDay();
+// const daysofweek = days[day]    
     
-    // console.log(daysofweek);
+// console.log(daysofweek);
 

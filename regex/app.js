@@ -16,6 +16,6 @@ pass.addEventListener("input", (e) => {
     const currentValue = e.target.value
     const val = passRegex.test(currentValue)
     
-    document.getElementById('pass_error').style.display = val ? "none" : "block";
+    document.getElementById('pass_error').style.display = val ? "none" : "block";   
     e.target.style.border = val ? "none" : "1px solid red";
 })

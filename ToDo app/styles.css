@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 body {
-    margin: 0px
+    margin: 0px;
+    background-color: white;
+    color: black;
 }
 .card {
   background-image: url(./photos/Bitmap.svg);
@@ -91,7 +93,7 @@ li {
     display: flex;
     align-items: center;
 }
-#list-btn {
+.list-btn {
     border: 0px;
     background-color: transparent;
     font-weight: 100;
@@ -100,4 +102,8 @@ li {
 }
 #list-input[type="checkbox"] {
     width: 18px;
+}
+
+.dark-mode{
+    background-color: black;
 }
